@@ -361,6 +361,16 @@ var Game = {
     return newColor;
   }
 };
+var beep = {
+  play: function  {
+            var audio = new Audio(
+'https://media.geeksforgeeks.org/wp-content/uploads/20190531135120/beep.mp3');
+            audio.play();
+        }
+}
+var beep1 = beep;
+var beep2 = beep;
+var beep3 = beep;
 
 var Pong = Object.assign({}, Game);
 Pong.initialize();
