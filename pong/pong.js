@@ -334,7 +334,7 @@ var Game = {
       // Handle down arrow and s key events
       if (key.keyCode === 40 || key.keyCode === 83) Pong.player.move = DIRECTION.DOWN;
       
-      if (key.keyCode ===88) // Simulate a mouse click:
+      if (key.keyCode ===27) // Simulate a mouse click:
 
         // Simulate an HTTP redirect:
         window.location.replace("/");
