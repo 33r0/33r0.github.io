@@ -362,7 +362,7 @@ var Game = {
   }
 };
 var beep = {
-  play: function  {
+  play: function()  {
             var audio = new Audio(
 'https://media.geeksforgeeks.org/wp-content/uploads/20190531135120/beep.mp3');
             audio.play();
