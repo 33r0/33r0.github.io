@@ -335,10 +335,9 @@ var Game = {
       if (key.keyCode === 40 || key.keyCode === 83) Pong.player.move = DIRECTION.DOWN;
       
       if (key.keyCode ===88) // Simulate a mouse click:
-window.location.href = "33r0.github.io";
 
-// Simulate an HTTP redirect:
-window.location.replace("33r0.github.io");
+        // Simulate an HTTP redirect:
+        window.location.replace("/");
     });
     // Stop the player from moving when there are no keys being pressed.
     document.addEventListener('keyup', function (key) { Pong.player.move = DIRECTION.IDLE; });
