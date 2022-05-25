@@ -334,7 +334,7 @@ var Game = {
       // Handle down arrow and s key events
       if (key.keyCode === 40 || key.keyCode === 83) Pong.player.move = DIRECTION.DOWN;
       
-      if (key.keyCode ===88) beep.play
+      if (key.keyCode ===88) beep.play();
     });
     // Stop the player from moving when there are no keys being pressed.
     document.addEventListener('keyup', function (key) { Pong.player.move = DIRECTION.IDLE; });
